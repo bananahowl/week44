@@ -20,6 +20,20 @@ export default function AppDay2p3() {
     }
     getChuk()
   },[selector])
+  /*
+  a) Add a feature, so that every 10 second (don’t decrease this number, the risk is that they will block our IP) a joke is fetched from this API: https://icanhazdadjoke.com/api.
+Hint: You need to set the accept header to get a response in your desired format, Add this as the second argument to fetch (un-comment the format you prefer):
+ {
+     headers: {
+          //Accept: 'text/plain'
+          //Accept: 'application/json'
+     }
+  }
+
+b) Make sure that you don’t fetch a new Chuck Norris Joke also every 10 seconds. This should only happen on a click on the button, rated: Under 17 requires accompanying parent or adult guardian ;-)
+
+c) Ensure that the require
+  */
   // tried to do as seen on a website to make a timer to fetch the data
   useEffect(()=> {
       const timer = setTimeout(()=>{

@@ -6,6 +6,7 @@ import App2 from './App2';
 import App3 from './App3';
 import AppDay2 from './AppDay2';
 import AppDay2p3 from './AppDay2p3';
+import ListDemoApp from './ListDemoApp';
 
 
 //Create a new file App2.js (and App3.js ....)
@@ -22,6 +23,7 @@ const DontUseMeForReal = () => {
          <a href="/"  className="x" id="app3">ex3</a> &nbsp;
          <a href="/"  className="x" id="app4">ex1Day2</a> &nbsp;
          <a href="/"  className="x" id="app5">ex3Day2</a> &nbsp;
+         <a href="/"  className="x" id="app6">ex1Day2p2</a> &nbsp;
         {/*  <a href="/"  className="x" id="app3">ex3</a> &nbsp; */}
          {/* Add as many as you have exercises, but remember className="x" */}
          {app}
@@ -41,6 +43,7 @@ function handleSelect(event) {
         case "app3": app = <App3 />; break;
         case "app4": app = <AppDay2 />; break;
         case "app5": app = <AppDay2p3 />; break;
+        case "app6": app = <ListDemoApp />; break;
     }
     ReactDOM.render(<DontUseMeForReal />, document.getElementById('root'));
 }

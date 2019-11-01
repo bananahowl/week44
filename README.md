@@ -4,7 +4,7 @@ In the project directory, there is .js files for one or several react assignment
 they are set down below.
 <br>
 It should be noted that there have been not made a lot of work
-because of a pretty bad sickness which have lasted til friday. 
+because of a pretty bad sickness which have lasted til friday.
 
 
 ### folder with all the react code 
