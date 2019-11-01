@@ -12,7 +12,7 @@ export default function AppDay2() {
 //onChange={val => setcount(val.target.value)}
   return (
     <div className="App">
-      <h2>form 1 to the 29/10 assigment </h2>
+      <h2>day 2 ex 1 </h2>
 
       
       <p> count is {count}</p>
